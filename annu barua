@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int array[5];  // Declare an array of 5 integers
+    
+    // Calculate the size of the array
+    size_t array_size = sizeof(array);
+    
+    // Calculate the size of a single integer
+    size_t int_size = sizeof(int);
+    
+    // Print the sizes
+    printf("Size of the array (5 integers): %zu bytes\n", array_size);
+    printf("Size of a single integer: %zu bytes\n", int_size);
+    
+    return 0;
+}
